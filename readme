@@ -1,0 +1,58 @@
+# Folup Crypto and Currency Rates - English
+
+This project displays live cryptocurrency and currency exchange rates using the CoinGecko API.
+
+## Features
+- Supports popular cryptocurrencies like Bitcoin, Ethereum, Solana, Ripple, and Dogecoin.
+- Displays exchange rates for popular currencies like USD, EUR, GBP, and JPY.
+- Fully responsive design with a modern interface.
+
+## Installation
+1. Clone the repository:
+   ```bash
+   git clone https://github.com/folupsoftware/Folup-Crypto-and-Currency-Rates.git
+2. Install dependencies using Composer:
+   composer install
+3. Run the project using a local server (e.g., XAMPP, WAMP).
+
+Usage
+1. Open the index.html file in your browser to view the live rates.
+2. Make sure your PHP server is running for backend functionality.
+
+API
+- Source: CoinGecko API
+- No API key is required.
+
+License
+This project is licensed under the MIT License. See the LICENSE file for details.
+
+
+
+# Folup Crypto and Currency Rates - Türkçe
+
+Bu proje, CoinGecko API kullanarak canlı kripto para ve döviz kurlarını gösterir.
+
+## Özellikler
+- Bitcoin, Ethereum, Solana, Ripple ve Dogecoin gibi popüler kripto paraları destekler.
+- USD, EUR, GBP ve JPY gibi popüler dövizlerin kur bilgilerini gösterir.
+- Modern ve responsive (mobil uyumlu) bir arayüz sunar.
+
+Kurulum
+1. Depoyu klonlayın:
+   '''bash
+   git clone https://github.com/folupsoftware/Folup-Crypto-and-Currency-Rates.git
+2. Composer kullanarak bağımlılıkları yükleyin:
+   composer install
+3. Projeyi bir yerel sunucuda çalıştırın (örn. XAMPP, WAMP).
+
+Kullanım
+- index.html dosyasını tarayıcınızda açın ve canlı kurları görün.
+- Backend işlevselliği için PHP sunucusunun çalışır durumda olduğundan emin olun.
+
+API
+- Kaynak: CoinGecko API
+- API anahtarı gerekmez.
+
+Lisans
+Bu proje MIT Lisansı altında lisanslanmıştır. Ayrıntılar için LICENSE dosyasına bakın.
+
