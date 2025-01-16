@@ -1,0 +1,11 @@
+{
+    "name": "folupexchange/currency-library",
+    "description": "Döviz ve kripto para kütüphanesi",
+    "type": "library",
+    "autoload": {
+        "psr-4": {
+            "FolupExchange\\": "src/"
+        }
+    },
+    "require": {}
+}

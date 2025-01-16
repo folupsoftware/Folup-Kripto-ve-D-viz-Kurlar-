@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Folup Crypto and Currency Rates</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f4f4f9;
+            margin: 0;
+            padding: 20px;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+        }
+        h1 {
+            text-align: center;
+            color: #333;
+        }
+        .container {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+            gap: 20px;
+            width: 100%;
+            max-width: 1200px;
+            margin-top: 20px;
+        }
+        .card {
+            background: #ffffff;
+            border-radius: 10px;
+            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+            padding: 20px;
+            text-align: center;
+            transition: transform 0.2s ease-in-out, box-shadow 0.2s ease-in-out;
+        }
+        .card:hover {
+            transform: scale(1.05);
+            box-shadow: 0 6px 10px rgba(0, 0, 0, 0.2);
+        }
+        .card h2 {
+            font-size: 1.5rem;
+            margin: 0;
+            color: #333;
+        }
+        .card p {
+            font-size: 1.2rem;
+            margin: 10px 0;
+            color: #666;
+        }
+        footer {
+            margin-top: 30px;
+            text-align: center;
+            color: #888;
+            font-size: 0.9rem;
+        }
+    </style>
+    <script src="library.js" defer></script>
+</head>
+<body>
+    <h1>Live Crypto and Currency Rates</h1>
+    <div class="container">
+        <!-- Döviz Kartları -->
+        <div class="card">
+            <h2>USD to TRY</h2>
+            <p id="currency-USD-TRY">Loading...</p>
+        </div>
+        <div class="card">
+            <h2>EUR to TRY</h2>
+            <p id="currency-EUR-TRY">Loading...</p>
+        </div>
+        <div class="card">
+            <h2>GBP to TRY</h2>
+            <p id="currency-GBP-TRY">Loading...</p>
+        </div>
+        <div class="card">
+            <h2>JPY to TRY</h2>
+            <p id="currency-JPY-TRY">Loading...</p>
+        </div>
+        <div class="card">
+            <h2>EUR to USD</h2>
+            <p id="currency-EUR-USD">Loading...</p>
+        </div>
+        <div class="card">
+            <h2>GBP to USD</h2>
+            <p id="currency-GBP-USD">Loading...</p>
+        </div>
+        <div class="card">
+            <h2>JPY to USD</h2>
+            <p id="currency-JPY-USD">Loading...</p>
+        </div>
+
+        <!-- Kripto Kartları -->
+        <div class="card">
+            <h2>Bitcoin (USD)</h2>
+            <p id="crypto-bitcoin-usd">Loading...</p>
+        </div>
+        <div class="card">
+            <h2>Bitcoin (TRY)</h2>
+            <p id="crypto-bitcoin-try">Loading...</p>
+        </div>
+        <div class="card">
+            <h2>Ethereum (USD)</h2>
+            <p id="crypto-ethereum-usd">Loading...</p>
+        </div>
+        <div class="card">
+            <h2>Ethereum (TRY)</h2>
+            <p id="crypto-ethereum-try">Loading...</p>
+        </div>
+        <div class="card">
+            <h2>Solana (USD)</h2>
+            <p id="crypto-solana-usd">Loading...</p>
+        </div>
+        <div class="card">
+            <h2>Solana (TRY)</h2>
+            <p id="crypto-solana-try">Loading...</p>
+        </div>
+        <div class="card">
+            <h2>Ripple (USD)</h2>
+            <p id="crypto-ripple-usd">Loading...</p>
+        </div>
+        <div class="card">
+            <h2>Ripple (TRY)</h2>
+            <p id="crypto-ripple-try">Loading...</p>
+        </div>
+        <div class="card">
+            <h2>Dogecoin (USD)</h2>
+            <p id="crypto-dogecoin-usd">Loading...</p>
+        </div>
+        <div class="card">
+            <h2>Dogecoin (TRY)</h2>
+            <p id="crypto-dogecoin-try">Loading...</p>
+        </div>
+    </div>
+    <footer>
+        &copy; 2025 Folup. All rights reserved.
+    </footer>
+</body>
+</html>
