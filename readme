@@ -33,7 +33,7 @@ Neden Bu Projeyi Kullanmalısınız?
 Projenize Nasıl Dahil Edersiniz?
 
 1. Depoyu Klonlayın:
-   git clone https://github.com/folupsoftware/crypto-and-currency-rates.git
+   git clone https://github.com/folupsoftware/Folup-Crypto-and-Curreny-Rates.git
 
 2. Bağımlılıkları Kurun:
    Composer kullanarak gerekli bağımlılıkları yükleyin:
